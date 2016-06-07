@@ -1,8 +1,6 @@
 /**
   * Created by Creed on 6/7/16.
   */
-// Due to changes in solve(), we can't inherit form NQueensLike anymore.
-// How would you fix this?
 class NQueensExtra(val dim: Int,
                    val available: List[(Int, Int)],
                    val solution: Set[(Int, Int)]) {
